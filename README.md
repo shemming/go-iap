@@ -9,16 +9,16 @@ go-iap verifies the purchase receipt via AppStore, GooglePlayStore or Amazon App
 
 Current API Documents:
 
-* AppStore: [![GoDoc](https://godoc.org/github.com/awa/go-iap/appstore?status.svg)](https://godoc.org/github.com/awa/go-iap/appstore)
-* GooglePlay: [![GoDoc](https://godoc.org/github.com/awa/go-iap/playstore?status.svg)](https://godoc.org/github.com/awa/go-iap/playstore)
-* Amazon AppStore: [![GoDoc](https://godoc.org/github.com/awa/go-iap/amazon?status.svg)](https://godoc.org/github.com/awa/go-iap/amazon)
+* AppStore: [![GoDoc](https://godoc.org/github.com/shemming/go-iap/appstore?status.svg)](https://godoc.org/github.com/awa/go-iap/appstore)
+* GooglePlay: [![GoDoc](https://godoc.org/github.com/shemming/go-iap/playstore?status.svg)](https://godoc.org/github.com/awa/go-iap/playstore)
+* Amazon AppStore: [![GoDoc](https://godoc.org/github.com/shemming/go-iap/amazon?status.svg)](https://godoc.org/github.com/awa/go-iap/amazon)
 
 
 # Installation
 ```
-go get github.com/awa/go-iap/appstore
-go get github.com/awa/go-iap/playstore
-go get github.com/awa/go-iap/amazon
+go get github.com/shemming/go-iap/appstore
+go get github.com/shemming/go-iap/playstore
+go get github.com/shemming/go-iap/amazon
 ```
 
 
@@ -28,7 +28,7 @@ go get github.com/awa/go-iap/amazon
 
 ```
 import(
-    "github.com/awa/go-iap/appstore"
+    "github.com/shemming/go-iap/appstore"
 )
 
 func main() {
@@ -46,7 +46,7 @@ func main() {
 
 ```
 import(
-    "github.com/awa/go-iap/playstore"
+    "github.com/shemming/go-iap/playstore"
 )
 
 func main() {
@@ -67,7 +67,7 @@ func main() {
 
 ```
 import(
-    "github.com/awa/go-iap/amazon"
+    "github.com/shemming/go-iap/amazon"
 )
 
 func main() {
