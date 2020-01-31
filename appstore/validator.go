@@ -10,6 +10,8 @@ import (
 	"time"
 )
 
+//go:generate mockgen  -destination=mocks/mock_appstore.go -package=mocks github.com/shemming/go-iap/appstore IAPClient
+
 const (
 	// SandboxURL is the endpoint for sandbox environment.
 	SandboxURL string = "https://sandbox.itunes.apple.com/verifyReceipt"
